@@ -279,8 +279,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <aside class="control-sidebar control-sidebar-dark">
             <!-- Control sidebar content goes here -->
             <div class="p-3">
-                <h5>Title</h5>
-                <p>Sidebar content</p>
+                <h5>消息列表</h5>
+				<div class="form-group">
+                  <label>您的身份:</label>
+				  <div class="input-group input-group-md">
+				  <input type="text" class="form-control">
+						<span class="input-group-btn">
+							<button type="button" class="btn btn-info btn-flat">发送</button>
+						</span>
+				  </div>
+				  <textarea class="form-control" rows="30" placeholder="Enter ..." disabled="" style="margin-top: 0px; margin-bottom: 0px; height: 96px;" id="messageList"></textarea>
+                </div>
             </div>
         </aside>
         <!-- /.control-sidebar -->
